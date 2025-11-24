@@ -205,8 +205,7 @@ def main():
                 worksheet = writer.sheets['限行数据']
                 wrap_format = workbook.add_format({'text_wrap': True, 'valign': 'top'})
 
-                # --- 关键修改 ---
-                # 根据新的列顺序和名称调整列宽
+
                 column_settings = [
                     ('A', 10, None),         # 城市
                     ('B', 18, None),         # 车辆类型
